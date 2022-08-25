@@ -22,7 +22,9 @@
     margin-right: 63px;
 }
 
-.about__img {}
+.about__img {
+    object-fit: cover;
+}
 
 .about__content {
     max-width: 530px;

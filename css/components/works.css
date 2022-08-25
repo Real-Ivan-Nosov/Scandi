@@ -46,6 +46,7 @@
 
 .works__img {
     height: 100%;
+    object-fit: cover;
 }
 
 .works__link {
