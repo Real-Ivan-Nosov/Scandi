@@ -1,0 +1,30 @@
+.slider-review {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.slider-review__text-content {
+    align-self: center;
+}
+
+.slider-review__text {}
+
+.slider-review__author {
+    text-transform: uppercase;
+}
+
+.slider-review__images {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.slider-review__images-container {
+    max-width: 407px;
+    max-height: 272px;
+}
+
+.slider-review__img {
+    object-fit: cover;
+}

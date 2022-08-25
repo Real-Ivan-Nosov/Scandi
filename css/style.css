@@ -1,4 +1,5 @@
-/* common styles */
+/* common styles*/
+/* ORDER here is IMPORTANT! */
 
 @import url('vars.css');
 @import url('common.css');
@@ -22,3 +23,6 @@
 @import url('components/members-list.css');
 @import url('components/how-we-working.css');
 @import url('components/working-stage.css');
+@import url('components/reviews.css');
+@import url('components/slider.css');
+@import url('components/slider-review.css');
