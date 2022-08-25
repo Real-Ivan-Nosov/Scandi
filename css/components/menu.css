@@ -1,0 +1,41 @@
+.menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 91px;
+}
+
+.menu__nav {
+    margin-left: 89px;
+    margin-right: auto;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    margin: none;
+    padding: 0;
+    gap: 26px;
+}
+
+.menu__item {}
+
+.menu__link {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: var(--main-color-dark);
+}
+
+.menu__tel {
+    margin-left: 35px;
+}
+
+.menu__tel:hover {
+    color: var(--main-color-dark);
+}

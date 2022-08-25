@@ -1,0 +1,24 @@
+.request {
+    max-width: 536px;
+}
+
+.request__title {
+    margin-bottom: 24px;
+}
+
+.request__text {
+    max-width: 420px;
+    margin-bottom: 21px;
+}
+
+.request__btn {
+    background-color: var(--btn-color);
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.request__btn:hover {
+    background-color: var(--text-color);
+    color: var(--text-color-second);
+    transition: all .3s;
+}
