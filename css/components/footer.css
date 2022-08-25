@@ -1,0 +1,15 @@
+.footer {
+    padding: 37px 0;
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__contacts {}
+
+.footer__company {
+    margin: 0;
+}

@@ -36,6 +36,7 @@
 
 .make-request__map-wrapper {
     min-width: 590px;
+    min-height: 100%;
 }
 
 .make-request__map {

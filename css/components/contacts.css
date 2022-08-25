@@ -1,0 +1,13 @@
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contacts__tel {
+    margin-right: 42px;
+}
+
+.contacts__address {
+    margin: 0;
+}
