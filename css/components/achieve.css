@@ -1,5 +1,13 @@
-.achieve {}
+.achieve {
+    color: var(--text-color-second);
+}
 
-.achieve__num {}
+.achieve__num {
+    margin: 0;
+    text-align: center;
+}
 
-.achieve__text {}
+.achieve__text {
+    margin: 0;
+    text-align: center;
+}

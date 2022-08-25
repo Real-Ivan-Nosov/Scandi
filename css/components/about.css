@@ -1,15 +1,36 @@
-.about {}
+.about {
+    min-height: 70vh;
+    padding-top: 65px;
+    background-color: var(--main-color-light);
+}
 
-.about__title {}
+.about__title {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 
-.about__inner {}
+.about__inner {
+    display: flex;
+    margin-bottom: 21px;
+}
 
-.about__img-container {}
+.about__img-container {
+    min-width: 445px;
+    min-height: 465px;
+    margin-right: 63px;
+}
 
 .about__img {}
 
-.about__content {}
+.about__content {
+    max-width: 530px;
+}
 
 .about__text {}
+
+.about__text:not(:last-child) {
+    margin-bottom: 40px;
+}
 
 .about__achievements {}

@@ -1,5 +1,14 @@
-.achievements {}
+.achievements {
+    min-height: 30vh;
+    background-color: var(--main-color-dark);
+    padding-top: 85px;
+    padding-bottom: 81px;
+}
 
-.achievements__list {}
-
-.achievements__achieve {}
+.achievements__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
