@@ -1,0 +1,18 @@
+.team {
+    background-color: var(--secondary-color);
+    padding: 50px 0 35px 0;
+}
+
+.team__title {
+    text-transform: uppercase;
+    margin: 0 auto 40px auto;
+    max-width: max-content;
+}
+
+.team__members-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1036px;
+    margin: 0 auto;
+}

@@ -5,6 +5,7 @@
 
 .works__title {
     margin: 0;
+    text-transform: uppercase;
 }
 
 .works__inner {
