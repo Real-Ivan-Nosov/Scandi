@@ -4,25 +4,53 @@
 @import url('vars.css');
 @import url('common.css');
 
-/* components */
+/* Components */
 
-@import url('components/header.css');
-@import url('components/logo.css');
-@import url('components/btn.css');
-@import url('components/menu.css');
-@import url('components/request.css');
+/* common components */
+
 @import url('components/tel.css');
 @import url('components/text.css');
 @import url('components/title.css');
+@import url('components/logo.css');
+@import url('components/btn.css');
+
+/* header section */
+
+@import url('components/header.css');
+@import url('components/menu.css');
+@import url('components/request.css');
+
+/* about section */
+
 @import url('components/about.css');
+
+/* achievements section */
+
 @import url('components/achievements.css');
 @import url('components/achieve.css');
+
+/* works section */
+
 @import url('components/works.css');
 @import url('components/card-describe.css');
+
+/* team section */
+
 @import url('components/team.css');
 @import url('components/members-list.css');
+
+/* how-we-working section */
+
 @import url('components/how-we-working.css');
 @import url('components/working-stage.css');
+
+/* reviews section */
+
 @import url('components/reviews.css');
 @import url('components/slider.css');
 @import url('components/slider-review.css');
+
+/* make-request section */
+
+@import url('components/make-request.css');
+@import url('components/request-form.css');

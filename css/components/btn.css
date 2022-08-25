@@ -4,4 +4,15 @@
     justify-content: center;
     width: 310px;
     padding: 25px 67px 24px 67px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--text-color);
+    background-color: var(--btn-color);
+}
+
+.btn:hover {
+    background-color: var(--text-color);
+    color: var(--text-color-second);
+    transition: all .3s;
 }

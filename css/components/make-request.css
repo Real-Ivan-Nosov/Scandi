@@ -1,0 +1,43 @@
+.make-request {
+    background-color: var(--main-color-dark);
+
+}
+
+.make-request__inner {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.make-request__request-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color-second);
+}
+
+.make-request__title {
+    text-transform: uppercase;
+    margin: 50px 0 24px 0;
+    max-width: max-content;
+}
+
+.make-request__text {
+    margin: 0;
+    margin-bottom: 44px;
+    opacity: 0.6;
+    max-width: 455px;
+}
+
+.make-request__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.make-request__map-wrapper {
+    min-width: 590px;
+}
+
+.make-request__map {
+    object-fit: cover;
+}

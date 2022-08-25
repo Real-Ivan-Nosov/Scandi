@@ -1,0 +1,28 @@
+.request-form {}
+
+.request-form__name {
+    border: none;
+    border-bottom: 1px solid var(--text-color-second);
+    background: transparent;
+    color: var(--form-inputs-color);
+}
+
+.request-form__name::placeholder {
+    color: var(--form-inputs-color);
+}
+
+.request-form__tel {
+    border: none;
+    border-bottom: 1px solid var(--text-color-second);
+    background: transparent;
+    color: var(--form-inputs-color);
+}
+
+.request-form__tel::placeholder {
+    color: var(--form-inputs-color);
+}
+
+.request-form__submit {
+    border: none;
+    cursor: pointer;
+}

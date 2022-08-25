@@ -12,13 +12,5 @@
 }
 
 .request__btn {
-    background-color: var(--btn-color);
     text-decoration: none;
-    color: var(--text-color);
-}
-
-.request__btn:hover {
-    background-color: var(--text-color);
-    color: var(--text-color-second);
-    transition: all .3s;
 }
