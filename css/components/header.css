@@ -1,6 +1,7 @@
 .header {
-    min-height: 100vh;
-    background-image: url(../../img/hero/hero-bg.jpg);
+    min-height: 715px;
+    height: 100vh;
+    background-image: url(../../img/hero/hero-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
