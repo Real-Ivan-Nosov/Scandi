@@ -10,6 +10,10 @@
     max-width: max-content;
 }
 
+.reviews__slider-wrapper {
+    position: relative;
+}
+
 .reviews__slider {
     width: 834px;
 }

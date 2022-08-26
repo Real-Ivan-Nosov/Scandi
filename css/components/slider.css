@@ -1,5 +1,5 @@
 .slider {
-    position: relative;
+    max-width: 834px;
 }
 
 .slider__wrapper {}
@@ -11,7 +11,7 @@
 
 .slider__item {}
 
-.slider__btn {
+.swiper-button {
     content: '';
     position: absolute;
     width: 72px;
@@ -25,11 +25,11 @@
     align-items: center;
 }
 
-.slider__btn:hover {
+.swiper-button:hover {
     transform: scale(1.1);
 }
 
-.slider__btn--left {
+.swiper-button-prev--rev {
     top: calc(50% - 36px);
     left: -101px;
     background-image: url(../../img/svg/arr-l.svg);
@@ -37,7 +37,7 @@
     background-position: center;
 }
 
-.slider__btn--right {
+.swiper-button-next--rev {
     top: calc(50% - 36px);
     right: -101px;
     background-image: url(../../img/svg/arr-r.svg);

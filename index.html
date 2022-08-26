@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scandi</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -239,10 +240,11 @@
     <section class="reviews" id="reviews">
         <div class="container">
             <h2 class="reviews__title title">Отзывы</h2>
-            <div class="reviews__slider slider">
-                <div class="slider__wrapper">
-                    <ul class="slider__items">
-                        <li class="slider__item slider-review">
+            <div class="reviews__slider-wrapper">
+                <button type="button" class="swiper-button-prev--rev swiper-button"></button>
+                <div class="reviews__slider slider swiper">
+                    <ul class="slider__items swiper-wrapper">
+                        <li class="slider__item slider-review swiper-slide">
                             <div class="slider-review__text-content">
                                 <p class="slider-review__text text">«Восторг! Спасибо, за комфортную жизнь. Очень рада,
                                     что выбрала вашу студию для украшения своего дома. </p>
@@ -272,11 +274,71 @@
                                 </div>
                             </div>
                         </li>
+                        <li class="slider__item slider-review swiper-slide">
+                            <div class="slider-review__text-content">
+                                <p class="slider-review__text text">«Восторг! Спасибо, за комфортную жизнь. Очень рада,
+                                    что выбрала вашу студию для украшения своего дома. </p>
+                                <p class="slider-review__text text">Работа шла быстро, было очень приятно общаться и
+                                    взаимодествовать
+                                    с сотрудниками. Не ожидала, что это будет так легко!</p>
+                                <p class="slider-review__text text">Буду советовать и своим друзьям к вам обращаться!»
+                                </p>
+                                <p class="slider-review__author">АННА БЕЛОВСКАЯ</p>
+                            </div>
+                            <div class="slider-review__images">
+                                <div class="slider-review__images-container">
+                                    <picture>
+                                        <source srcset="img/comments/room-1.avif" type="image/avif">
+                                        <source srcset="img/comments/room-1.webp" type="image/webp">
+                                        <img loading="lazy" src="img/comments/room-1.jpg" alt="room 1" width="407"
+                                            height="272" class="slider-review__img">
+                                    </picture>
+                                </div>
+                                <div class="slider-review__images-container">
+                                    <picture>
+                                        <source srcset="img/comments/room-1.avif" type="image/avif">
+                                        <source srcset="img/comments/room-1.webp" type="image/webp">
+                                        <img loading="lazy" src="img/comments/room-1.jpg" alt="room 1" width="407"
+                                            height="272" class="slider-review__img">
+                                    </picture>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slider__item slider-review swiper-slide">
+                            <div class="slider-review__text-content">
+                                <p class="slider-review__text text">«Восторг! Спасибо, за комфортную жизнь. Очень рада,
+                                    что выбрала вашу студию для украшения своего дома. </p>
+                                <p class="slider-review__text text">Работа шла быстро, было очень приятно общаться и
+                                    взаимодествовать
+                                    с сотрудниками. Не ожидала, что это будет так легко!</p>
+                                <p class="slider-review__text text">Буду советовать и своим друзьям к вам обращаться!»
+                                </p>
+                                <p class="slider-review__author">АННА БЕЛОВСКАЯ</p>
+                            </div>
+                            <div class="slider-review__images">
+                                <div class="slider-review__images-container">
+                                    <picture>
+                                        <source srcset="img/comments/room-2.avif" type="image/avif">
+                                        <source srcset="img/comments/room-2.webp" type="image/webp">
+                                        <img loading="lazy" src="img/comments/room-2.jpg" alt="room 2" width="407"
+                                            height="272" class="slider-review__img">
+                                    </picture>
+                                </div>
+                                <div class="slider-review__images-container">
+                                    <picture>
+                                        <source srcset="img/comments/room-2.avif" type="image/avif">
+                                        <source srcset="img/comments/room-2.webp" type="image/webp">
+                                        <img loading="lazy" src="img/comments/room-2.jpg" alt="room 2" width="407"
+                                            height="272" class="slider-review__img">
+                                    </picture>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <button type="button" class="slider__btn slider__btn--left"></button>
-                <button type="button" class="slider__btn slider__btn--right"></button>
+                <button type="button" class="swiper-button-next--rev swiper-button"></button>
             </div>
+        </div>
         </div>
     </section>
     <section class="make-request" id="make-request">
@@ -292,10 +354,14 @@
                         <button type="submit" class="request-form__submit btn">Оставить заявку</button>
                     </form>
                 </div>
-                <div class="make-request__map-wrapper">
+                <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A4814e568313dad404482f2e6fa39ce9b7e43a76fc60feb7d9ff716a637ddfca2&amp;source=constructor"
+                    width="590" height="624" frameborder="0"
+                    title="г. Санкт-петербург, ул. Большая Конюшенная, 19"></iframe>
+                <!-- <div class="make-request__map-wrapper">
                     <img src="img/request/map.png" alt="аддрес ул. Большая Конюшенная 19" width="590" height="624"
                         class="make-request__map">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -310,7 +376,8 @@
             </div>
         </div>
     </footer>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="js/slider.js"></script>
 </body>
-<!-- test-->
 
 </html>

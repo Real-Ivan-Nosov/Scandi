@@ -8,7 +8,9 @@
     align-self: center;
 }
 
-.slider-review__text {}
+.slider-review__text {
+    max-width: 407px;
+}
 
 .slider-review__author {
     text-transform: uppercase;

@@ -40,5 +40,6 @@
 }
 
 .make-request__map {
+    height: 100%;
     object-fit: cover;
 }

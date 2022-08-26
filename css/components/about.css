@@ -29,7 +29,9 @@
     max-width: 530px;
 }
 
-.about__text {}
+.about__text {
+    max-width: 100%;
+}
 
 .about__text:not(:last-child) {
     margin-bottom: 40px;

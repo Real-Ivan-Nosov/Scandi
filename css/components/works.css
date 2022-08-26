@@ -18,6 +18,7 @@
 .works__inner-row {
     display: grid;
     gap: 30px;
+    max-height: 459px;
     grid-template-columns: 1fr 2fr;
 }
 
